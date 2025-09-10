@@ -105,7 +105,7 @@ Used case statement to show total credits/debits per account and transaction cou
 
 
 
-used case statement and aggregate function SUM, to show daily profit/loss (net flow) by summing credits and debits per day. 
+Used case statement and aggregate function SUM, to show daily profit/loss (net flow) by summing credits and debits per day. 
 
 
 
