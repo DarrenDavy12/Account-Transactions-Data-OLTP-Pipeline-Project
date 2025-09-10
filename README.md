@@ -3,7 +3,7 @@
 This project demonstrates the design and implementation of a simple **OLTP (Online Transaction Processing) pipeline** 
 
 - **Docker** to host postgres in container 
-- **Postgres** (Dockerized) as the transactional database
+- **Postgres/PSQL** (Dockerized) as the transactional database
 - **SQL** for schema creation
 - **Python** to insert sample and synthetic data
 - **Dbeaver** to showcase tables in database format and prepared for querying
