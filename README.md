@@ -6,6 +6,7 @@ This project demonstrates the design and implementation of a simple **OLTP (Onli
 - **Postgres** (Dockerized) as the transactional database
 - **SQL** for schema creation
 - **Python** to insert sample and synthetic data
+- **Dbeaver** to showcase tables in database format and prepared for querying
 - **Azure Blob Storage** for backing up raw data
 - **Git** for version control and project collaboration
 
@@ -81,12 +82,38 @@ python3 app/oltp_client.py
 python3 app/generate_data.py
 ```
 
-
 This will create multiple customers, accounts, and random transactions.
+
+
+
+
+
+## 🧑‍💻 Connected dockerized postgres to dbeaver and ran queries. 
+
+
+Used Inner Join to match values in both tables 'customers' and 'accounts' using both customer_id and account_id 
+Shows customers, accounts, and balances 
+
+
+
+
+
+Used case statement to show total credits/debits per account and transaction count
+
+
+
+
+
+
+used case statement and aggregate function SUM, to show daily profit/loss (net flow) by summing credits and debits per day. 
+
+
+
+
 
 ## ☁️ Backup to Azure Blob
 
-Export transactions with Python:
+Export data with Python:
 ```
 python3 app/backup_to_azure.py
 ```
