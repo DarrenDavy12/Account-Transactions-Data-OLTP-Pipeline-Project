@@ -74,15 +74,6 @@ docker exec -u postgres oltp_pg psql -d oltp_db -f /tmp/oltp_schema.sql
 python3 app/oltp_client.py
 ```
 
-```
-Expected output:
-
-  Customer 1 
-  
-  Account 1
-  
-  Posted transaction 3
-```
 
 
 6. Generate synthetic data
